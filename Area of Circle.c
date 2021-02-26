@@ -1,12 +1,11 @@
 #include<stdio.h>
-int
-main ()
+int main ()
 {
-  int r;
+  float area, r;
   printf ("Enter Radius: ");
-  scanf ("%d", &r);
-  float area;
-  area=22.0*r/7.0;
-  printf("The area is %f",area);
+  scanf ("%f", &r);
+  area = 22.0 * r / 7.0;
+  printf ("The area is %f", area);
   return 0;
 }
+
